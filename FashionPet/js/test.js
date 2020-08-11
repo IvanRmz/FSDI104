@@ -92,7 +92,7 @@ const older = students.filter(s=>s.age > 25);
 console.log(older)
 // find Andrea
 
-const andrea = students.find(s=>s.name === "Andrea");
+const andrea = students.find(s=>s.name === "Andrea" );
 console.log(andrea);
 
 // age's average
